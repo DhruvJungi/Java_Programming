@@ -65,9 +65,30 @@ public class JavaBasics1 {
 
         // sc.close();
 
-        int a = 10;
-        double b = a; // implicit type casting (widening conversion)
-        System.out.println("The value of b is: " + b);
+        // type casting
+        //byte->short->int->long->float->double 
+
+        // int a = 10;
+        // double b = a; // implicit type casting (widening conversion)
+        // System.out.println("The value of b is: " + b); // it will convert because double can hold larger values than int but vice versa is not possible because int cannot hold decimal values of double
+
+        // type casting (narrow conversion or explicit type casting)
+        // float to int 
+        // float marks = 99.9f;
+        // int marks1 = (int) marks;
+        // System.out.println(marks1);
+
+        // character to int 
+        // char ch = 'A';
+        // int number = (int) ch; // it will convert character to its corresponding ASCII value
+        // System.out.println(number);
+
+        // type promotion
+        char a = 'a';
+        char b = 'b';
+        System.out.println((int)a);
+        System.out.println((int)b);
+        System.out.println(b-a); // it will convert char to int and then perform the subtraction and give the result as 1 because ASCII value of 'b' is 98 and 'a' is 97 so 98-97=1
     }
 }
 // boilerplate code 
