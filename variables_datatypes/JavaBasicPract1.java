@@ -46,7 +46,7 @@ public class JavaBasicPract1 {
         // ans= -51155.0848
 
         // ques-5
-        int $ = 24;
-        System.out.println($);
+        // int $ = 24; // $ is valid identifier in java 
+        // System.out.println($);
     }
 }
