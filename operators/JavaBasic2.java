@@ -31,7 +31,7 @@ public class JavaBasic2 {
 
         // assigmnment operators (=, +=, -=, *=, /=, %=)
         int a = 10;
-        a+= 10;
+        a += 10;
         System.out.println(a);
     }
 }
