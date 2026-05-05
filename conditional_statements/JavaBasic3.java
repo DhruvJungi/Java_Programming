@@ -13,7 +13,7 @@ public class JavaBasic3 {
         // }
 
         // if-else if statement
-        // int age = 5;
+        // int age = 13;
         // if (age >= 18) {
         //     System.out.println("adult");
         // } else if(age >= 13 && age <= 18){
@@ -53,7 +53,7 @@ public class JavaBasic3 {
         // System.out.println(type);
 
         //switch statement
-        // int num = 5;
+        // int num =3;
         // switch (num) {
         //     case 1 : System.out.println("samosa");
         //     break;
@@ -64,7 +64,7 @@ public class JavaBasic3 {
         //     default : System.out.println("invalid choice");
         // }
 
-        //calculator using switch statement
+        // calculator using switch statement
         Scanner sc = new Scanner(System.in);
         System.out.print("enter first number :");
         int a = sc.nextInt();

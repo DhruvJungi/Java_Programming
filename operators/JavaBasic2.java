@@ -30,8 +30,8 @@ public class JavaBasic2 {
         // System.out.println( !b );  
 
         // assigmnment operators (=, +=, -=, *=, /=, %=)
-        int a = 10;
-        a += 10;
-        System.out.println(a);
+        // int a = 10;
+        // a += 10;
+        // System.out.println(a);
     }
 }

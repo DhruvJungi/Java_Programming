@@ -26,9 +26,10 @@ public class JavaBasics1 {
         // short n = 240;
 
         // to take input from users
-        // Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         // System.out.print("Please enter a word: "); // Added a prompt so you know it's waiting
         // String input = sc.next();
+
         // System.out.print("Please enter your name: ");
         // String name = sc.nextLine(); // This will read the rest of the line after the first word
         // System.out.println("You entered: " + name);
