@@ -30,14 +30,46 @@ public class JavaBasic6 {
     // }
 
     // function to calculate factorial
-    public static int factorial(int n){
-        int f=1;
-        for(int i=1; i<=n; i++){
-            f = f * i;
-        }
-        return f;
+    // public static int factorial(int n){
+    //     int f=1;
+    //     for(int i=1; i<=n; i++){
+    //         f = f * i;
+    //     }
+    //     return f;
+    // }
+
+    // binomial coefficient = nCr = n!/r!*(n-r)!
+    // public static int nCr(int n, int r){
+    //     int fact_n= factorial(n);
+    //     int fact_r= factorial(r);
+    //     int fact_n_r= factorial(n-r);
+    //     int nCr = fact_n/(fact_r*fact_n_r);
+    //     return nCr;
+    // }
+
+
+    // function overloading --> same function name with different parameters
+    // func to calculate sum of 2 numbers
+    // public static int sum(int a, int b){
+    //     return a + b;
+    // }    
+
+    // if the method has same  return type with same function name then it will create problem because java will not be able to decide which method to call
+    // it will work on the bases of parameters and not on the bases of return type
+
+    // funnction to calculate sum of 3 numbers
+    // public static int sum(int a, int b, int c){
+    //     return a + b + c;
+    // }
+
+    // overloading using different data type
+    public static int sum(int a, int b){
+        return a + b;
     }
 
+    public static float sum(float a, float b){
+        return a + b;
+    }
 
     public static void main(String args[]){
         // HelloWorld();
@@ -56,7 +88,15 @@ public class JavaBasic6 {
         // int prod = multiply(5, 10);
         // System.out.println("the product is : " + prod);
 
-        System.out.println(factorial(4));
+        // System.out.println(factorial(5));
+
+        // System.out.println(nCr(5,2));
+
+        // System.out.println(sum(5,2));
+        // System.out.println(sum(5,1,1));
+        
+        System.out.println(sum(5,2));
+        System.out.println(sum(5.0f,2.0f));
     }
 
 }
