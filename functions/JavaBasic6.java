@@ -63,12 +63,36 @@ public class JavaBasic6 {
     // }
 
     // overloading using different data type
-    public static int sum(int a, int b){
-        return a + b;
+    // public static int sum(int a, int b){
+    //     return a + b;
+    // }
+
+    // public static float sum(float a, float b){
+    //     return a + b;
+    // }
+
+    // check wether number is prime or not prime 
+    public static boolean isPrime(int n){
+        if(n == 2){
+            return true;
+        }
+        for(int i=2; i<=Math.sqrt(n); i++){
+            if(n % i == 0){
+                return false;
+            }
+        }
+        return true;
+
     }
 
-    public static float sum(float a, float b){
-        return a + b;
+    // check wether the number how many numbers are prime in between the range 
+    public static void primesInRange(int n){
+        for(int i=2; i<=n; i++){
+            if(isPrime(i)){
+                System.out.print(i + " ");
+            }
+        }
+        System.out.println();
     }
 
     public static void main(String args[]){
@@ -95,8 +119,12 @@ public class JavaBasic6 {
         // System.out.println(sum(5,2));
         // System.out.println(sum(5,1,1));
         
-        System.out.println(sum(5,2));
-        System.out.println(sum(5.0f,2.0f));
+        //System.out.println(sum(5,2));
+        //System.out.println(sum(5.0f,2.0f));
+    
+        // System.out.println(isPrime(4));
+
+        primesInRange(20);
     }
 
 }
