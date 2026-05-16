@@ -3,3 +3,4 @@
 Day-4 learning basics of java  programming language 
 Day-5 we will do some practice of coding  by doing some patterns in java programming language 
 Day-6 learned about functions 
+day-7 learned about array
